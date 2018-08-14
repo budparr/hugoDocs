@@ -1,0 +1,38 @@
+/*Base Styles*/
+@import '_tachyons';
+
+@import 'modules/_anchorforid';
+@import 'modules/_animation';
+@import 'modules/_documentation-styles';
+
+@import 'modules/_algolia';
+@import 'modules/_carousel';
+@import 'modules/_code';
+@import 'modules/_tabs';
+@import 'modules/_color-scheme';
+@import 'modules/_columns';
+@import 'modules/_content';
+@import 'modules/_content-tables';
+@import 'modules/_definition-lists';
+@import 'modules/_fluid-type';
+@import 'modules/_font-family';
+/*@import 'modules/_hljs';*/
+@import 'modules/_hugo-internal-template-styling';
+@import 'modules/_no-js';
+@import 'modules/_social-icons';
+@import 'modules/_stickyheader';
+
+@import 'modules/_svg';
+@import 'modules/_chroma';
+@import '_variables';
+
+.nested-blockquote blockquote {
+  border-left: 4px solid var(--primary-color);
+  padding-left: 1em;
+  /*margin: 0;*/
+}
+
+
+.mw-90 {
+  max-width:90%;
+}

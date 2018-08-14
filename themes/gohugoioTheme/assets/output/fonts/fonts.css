@@ -1,0 +1,183 @@
+/* muli-200normal - latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200;
+  src:
+    local('Muli Extra Light '),
+    local('Muli-Extra Light'),
+    url(/font-files/muli-latin-2004387a458edb3bec4e81602c6329a207f.woff2) format('woff2'), 
+    url(/font-files/muli-latin-2003ae45760f8b0b342216bd55f131a68ec.woff) format('woff'); /* Modern Browsers */
+}
+
+/* muli-200italic - latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 200;
+  src:
+    local('Muli Extra Light italic'),
+    local('Muli-Extra Lightitalic'),
+    url(/font-files/muli-latin-200italiceb2edd0dc666070fc7b90d79c890d8eb.woff2) format('woff2'), 
+    url(/font-files/muli-latin-200italic178072369c57c2d0a71adaea74e543f1.woff) format('woff'); /* Modern Browsers */
+}
+
+/* muli-300normal - latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src:
+    local('Muli Light '),
+    local('Muli-Light'),
+    url(/font-files/muli-latin-3003d9d9afae68fc95977ec200c119c42a1.woff2) format('woff2'), 
+    url(/font-files/muli-latin-300812c1a52c772b9ac9b4f7acc93deaa39.woff) format('woff'); /* Modern Browsers */
+}
+
+/* muli-300italic - latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300;
+  src:
+    local('Muli Light italic'),
+    local('Muli-Lightitalic'),
+    url(/font-files/muli-latin-300italic351cf102533282a857656415ded19e6e.woff2) format('woff2'), 
+    url(/font-files/muli-latin-300italicfe0f275136e0a53984c3bdb64edd6076.woff) format('woff'); /* Modern Browsers */
+}
+
+/* muli-400normal - latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    local('Muli Regular '),
+    local('Muli-Regular'),
+    url(/font-files/muli-latin-40045e555f9d7a99c5b06bf70196c20abbe.woff2) format('woff2'), 
+    url(/font-files/muli-latin-400e40161a93339af51847eee49c683f08f.woff) format('woff'); /* Modern Browsers */
+}
+
+/* muli-400italic - latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    local('Muli Regular italic'),
+    local('Muli-Regularitalic'),
+    url(/font-files/muli-latin-400italic14dce6af9d49c83b9c67001b58fdeb0e.woff2) format('woff2'), 
+    url(/font-files/muli-latin-400italic10a04c820381c42df50193e3163d4f9d.woff) format('woff'); /* Modern Browsers */
+}
+
+/* muli-600normal - latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src:
+    local('Muli SemiBold '),
+    local('Muli-SemiBold'),
+    url(/font-files/muli-latin-600b6e5b86d74352699fff02e4bdc5185e5.woff2) format('woff2'), 
+    url(/font-files/muli-latin-600a2138124b73c9275bbdc71bfce6b2c0e.woff) format('woff'); /* Modern Browsers */
+}
+
+/* muli-600italic - latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 600;
+  src:
+    local('Muli SemiBold italic'),
+    local('Muli-SemiBolditalic'),
+    url(/font-files/muli-latin-600italicb2918fe9c48daf63ab74b130528bba96.woff2) format('woff2'), 
+    url(/font-files/muli-latin-600italic59eb241c89f0d85e4761fd202702d4a8.woff) format('woff'); /* Modern Browsers */
+}
+
+/* muli-700normal - latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src:
+    local('Muli Bold '),
+    local('Muli-Bold'),
+    url(/font-files/muli-latin-7008f65fa68cfb5d8cc4f4fa728a470332b.woff2) format('woff2'), 
+    url(/font-files/muli-latin-7001e6aab148ffeb8fe3470c15ef33c90bf.woff) format('woff'); /* Modern Browsers */
+}
+
+/* muli-700italic - latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src:
+    local('Muli Bold italic'),
+    local('Muli-Bolditalic'),
+    url(/font-files/muli-latin-700italic33dd03b37af876c59e39bc5d1e24ddf3.woff2) format('woff2'), 
+    url(/font-files/muli-latin-700italic280e317f3b13f6fb0b1499343cfb7f40.woff) format('woff'); /* Modern Browsers */
+}
+
+/* muli-800normal - latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src:
+    local('Muli ExtraBold '),
+    local('Muli-ExtraBold'),
+    url(/font-files/muli-latin-8004ecc03e82b230e336e59b529decc537d.woff2) format('woff2'), 
+    url(/font-files/muli-latin-8007019eda5ae48543436f9ddc39af4e648.woff) format('woff'); /* Modern Browsers */
+}
+
+/* muli-800italic - latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 800;
+  src:
+    local('Muli ExtraBold italic'),
+    local('Muli-ExtraBolditalic'),
+    url(/font-files/muli-latin-800italic48826d71bc78c02f24e6aec813f3fb7f.woff2) format('woff2'), 
+    url(/font-files/muli-latin-800italic75f0022540a0a84f3bfeb37f1d8735e3.woff) format('woff'); /* Modern Browsers */
+}
+
+/* muli-900normal - latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src:
+    local('Muli Black '),
+    local('Muli-Black'),
+    url(/font-files/muli-latin-9007f69621e9f4f5b5c7b6ea88b99cd2fcc.woff2) format('woff2'), 
+    url(/font-files/muli-latin-9003f016a1fd0a668cfb421ddafb044ba30.woff) format('woff'); /* Modern Browsers */
+}
+
+/* muli-900italic - latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 900;
+  src:
+    local('Muli Black italic'),
+    local('Muli-Blackitalic'),
+    url(/font-files/muli-latin-900italic83ecdc45fad2cb32a0897e4525a073e5.woff2) format('woff2'), 
+    url(/font-files/muli-latin-900italicf1189aead3bed133b2999d963aa4273f.woff) format('woff'); /* Modern Browsers */
+}
+
+

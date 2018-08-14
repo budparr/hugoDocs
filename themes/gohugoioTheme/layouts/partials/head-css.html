@@ -1,0 +1,18 @@
+{{ if .Site.IsServer }}
+  {{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "themes/gohugoioTheme/assets/css/config/dev/postcss.config.js") | minify | fingerprint }}    
+    {{ with $style }}
+      <link rel="stylesheet" href="{{ relLangURL .Permalink }}"> 
+    {{ end }}
+{{ else }}
+  {{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "themes/gohugoioTheme/assets/css/config/postcss.config.js")  | minify | fingerprint }}  
+  {{ with $style }}
+    <link rel="stylesheet" href="{{ relLangURL .Permalink }}" integrity="{{ .Data.Integrity }}"> 
+  {{ end }}  
+{{ end }}
+
+{{ if (fileExists "./assets/output/fonts/fonts.css") -}}
+  {{ with (resources.Get "output/fonts/fonts.css") }}
+    {{ $fonts := . | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ relLangURL $fonts.Permalink }}" integrity="{{ $fonts.Data.Integrity }}"> 
+  {{ end }}
+{{ end }}
