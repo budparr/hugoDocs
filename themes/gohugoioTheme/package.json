@@ -1,0 +1,40 @@
+{
+  "name": "gohugo-default-styles",
+  "version": "1.1.0",
+  "description": "Default Theme for Hugo Sites",
+  "main": "index.js",
+  "repository": "",
+  "author": "budparr",
+  "license": "MIT",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --config webpack.js",
+    "build-dev": "NODE_ENV=development webpack --config webpack.js --progress --watch",
+    "deploy": "npm run build && hugo --gc",
+    "hugo": "hugo server --gc --disableFastRender",
+    "start": "hugo --gc"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.0.1",
+    "autoprefixer": "^9.0.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "clipboard": "^1.6.1",
+    "css-loader": "^1.0.0",
+    "docsearch.js": "^2.3.3",
+    "file-loader": "^1.1.11",
+    "lazysizes": "^4.0.2",
+    "mini-css-extract-plugin": "^0.4.1",
+    "postcss": "^7.0.1",
+    "postcss-cli": "^6.0.0",
+    "postcss-preset-env": "^5.3.0",
+    "scrolldir": "^1.2.7",
+    "tachyons": "^4.7.0",
+    "tachyons-build-css": "^1.8.1",
+    "typeface-muli": "0.0.54",
+    "webpack": "^4.16.2",
+    "webpack-command": "^0.4.1"
+  },
+  "dependencies": {}
+}
