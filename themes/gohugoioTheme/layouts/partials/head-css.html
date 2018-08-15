@@ -6,13 +6,13 @@
 {{ else }}
   {{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "themes/gohugoioTheme/assets/css/config/postcss.config.js")  | minify | fingerprint }}  
   {{ with $style }}
-    <link rel="stylesheet" href="{{ relLangURL .Permalink }}" integrity="{{ .Data.Integrity }}"> 
+    <link rel="stylesheet" href="{{ relLangURL .Permalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"> 
   {{ end }}  
 {{ end }}
 
 {{ if (fileExists "./assets/output/fonts/fonts.css") -}}
   {{ with (resources.Get "output/fonts/fonts.css") }}
     {{ $fonts := . | resources.Minify | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ relLangURL $fonts.Permalink }}" integrity="{{ $fonts.Data.Integrity }}"> 
+    <link rel="stylesheet" href="{{ relLangURL $fonts.Permalink }}" integrity="{{ $fonts.Data.Integrity }}" crossorigin="anonymous"> 
   {{ end }}
 {{ end }}
